@@ -1,3 +1,24 @@
+## iot_bridge (jade) - 0.8.2-0
+
+The packages in the `iot_bridge` repository were released into the `jade` distro by running `/usr/bin/bloom-release --rosdistro jade --track jade iot_bridge --edit` on `Thu, 25 Jun 2015 20:02:11 -0000`
+
+The `iot_bridge` package was released.
+
+Version of package(s) in repository `iot_bridge`:
+- upstream repository: https://github.com/corb555/iot_bridge.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.8.2-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.8`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.36`
+
+
 ## iot_bridge (indigo) - 0.8.2-0
 
 The packages in the `iot_bridge` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo iot_bridge --edit` on `Sun, 21 Jun 2015 20:50:48 -0000`
