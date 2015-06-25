@@ -1,0 +1,12 @@
+Source: ros-jade-iot-bridge
+Section: misc
+Priority: extra
+Maintainer: mike <corb@aol.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin, ros-jade-diagnostic-msgs, ros-jade-message-generation, ros-jade-rospy
+Homepage: http://wiki.ros.org/iot_bridge
+Standards-Version: 3.9.2
+
+Package: ros-jade-iot-bridge
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-requests, ros-jade-diagnostic-msgs, ros-jade-message-runtime, ros-jade-rospy
+Description: The iot_bridge provides a bi-directional bridge between ROS and the OpenHAB Home Automation system. This allows a ROS robot to connect to a vast variety of IoT devices such as motion detectors, Z-Wave devices, lighting, door locks, etc.
